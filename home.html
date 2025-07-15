@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustafa Roshdy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/solid.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+    <style>
+        /* Responsive container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Make navbar responsive */
+.navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+/* Make header responsive */
+.header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.header img {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Projects and Skills Table */
+.portfolio-table {
+    width: 100%;
+    border-spacing: 20px;
+    table-layout: fixed;
+}
+.portfolio-table td {
+    width: 100%;
+}
+
+/* Make skill/project boxes responsive */
+.project-box {
+    min-height: 120px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+/* Contact input full width on small screens */
+#contact form input {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+/* Footer icons layout */
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .portfolio-table {
+        display: block;
+    }
+
+    .portfolio-table tr {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .project-box img {
+        width: 100px;
+    }
+
+    #footer {
+        padding: 100px 0;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar container">
+        <ul>
+            <li><a href="https://github.com/Mustafa-Roshdy">Home</a></li>
+            <li><a href="#skillId">Skills</a></li>
+            <li><a href="#projectId">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="header container">
+
+        <div class="textinfo">
+            <h1>Hello, I’m <span>Mustafa Roshdy</span></h1>
+            <p>Software Engineer</p>
+            <a class="button" href="https://github.com/Mustafa-Roshdy?tab=repositories">View My Work</a>
+        </div>
+        <div><img src="./images/me.png" alt="myself"></div>
+    </div>
+
+    <div id="projectId" class="project">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <table class="portfolio-table">
+                <tr>
+                    <td class="project-box"><a
+                            href="https://github.com/Mustafa-Roshdy/SuperMarket-ManagementSystem">SuperMarket-DBM</a>
+                    </td>
+                    <td class="project-box"><a
+                            href="https://github.com/Mustafa-Roshdy/Hotel-Reservation">Hotel-Reservation</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-box"><a href="https://github.com/Mustafa-Roshdy/BIG-Store">BIG-Store</a>
+                    </td>
+                    <td class="project-box"><a href="https://github.com/Mustafa-Roshdy/RushCal">RushCal</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="skillId" class="skill">
+        <div class="container">
+            <h2>My Skills</h2>
+            <table class="portfolio-table">
+                <tr>
+                    
+                    <td class="project-box"><img src="./images/html.svg" alt="html">
+                    </td>
+
+
+                    <td class="project-box"><img src="./images/css.svg" alt="css">
+                    </td>
+                    <td class="project-box"><img src="./images/javascript.svg" alt="javascript">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-box"><img src="./images/flutter.svg" alt="flutter">
+                        
+                    </td>
+                    <td class="project-box"><img src="./images/dart.svg" alt="dart">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="mailto:roshdyii444@gmail.com?subject=Message from Portfolio" method="post">
+        <p><input class="button" type="submit" value="Send Message"></p>
+      </form>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <table class="footer">
+                <tr>
+                    <td class="project-box"><img src="./images/location.svg" alt="location"><label for="">Aswan, Egypt</label>
+                    </td>
+                    <td class="project-box"><img src="./images/phone.svg" alt="Phone"><label for="">+20 1208235115</label>
+                    </td>
+                    <td class="project-box"><img src="./images/mail.svg" alt="mail"><label for="">roshdyii444@gmail.com</label>
+                    </td>
+                    
+                </tr>
+            </table>
+    </div>
+  </div>
+
+</body>
+
+</html>

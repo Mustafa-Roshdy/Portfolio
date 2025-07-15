@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 7, 31);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+/* NavBar */
+
+
+
+.navbar {
+
+
+    padding: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+
+    color: rgb(134, 96, 188);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Header */
+
+
+.header {
+    background-image: radial-gradient(circle, rgb(28, 13, 51), rgb(17, 7, 31), rgb(17, 7, 31));
+    margin-top: 4vh;
+    display: flex;
+
+    align-items: center
+}
+
+.header img {
+    width: 60%;
+    float: right;
+    background-image: radial-gradient(circle, rgb(136, 99, 192), rgb(34, 23, 50), rgb(17, 7, 31));
+}
+
+.header .textinfo {
+
+    margin-left: 50px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.header span {
+    display: block;
+    color: rgb(184, 153, 1);
+}
+
+.button {
+    background: rgb(69, 43, 102);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: rgb(184, 153, 1);
+}
+
+
+
+/* My Project  */
+
+
+.project {
+    padding: 60px 0;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: rgb(184, 153, 1);
+}
+
+.portfolio-table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.portfolio-table {
+    width: 100%;
+}
+
+.project-box {
+    background-image: radial-gradient(circle, rgb(28, 13, 51), rgb(17, 7, 31), rgb(17, 7, 31));
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* My Skills  */
+
+
+#skillId {
+    padding: 60px 0;
+}
+
+.portfolio-table {
+    width: 100%;
+    border-spacing: 20px;
+    margin-block: 200px;
+}
+
+.portfolio-table img {
+    width: 150px;
+    
+}
+
+.project-box {
+    background-image: radial-gradient(circle, rgb(28, 13, 51), rgb(17, 7, 31), rgb(17, 7, 31));
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+/* Contact us  */
+
+
+#contact form input{
+  width: 50%;
+  align-items: center;
+  padding: 20px;
+  margin-block: 150px;
+    margin-left: 20%;
+  font-size: 14px;
+}
+
+/* Footer  */
+
+#footer {
+background-color:rgb(17, 7, 31) ;
+  text-align: center;
+  padding: 200px 0;
+}
+.footer{
+    width: 100%;
+    border-spacing: 20px;
+}
+.footer td img {
+    margin-inline:10px;
+}
+#footer img{
+    width: 25px;
+}
