@@ -6,7 +6,7 @@ This is a personal portfolio website built using **HTML4** and **CSS**, designed
 
 ## 🌐 Live Preview
 
-👉 [View Online]((https://mustafa-roshdy.github.io/Portfolio/home.html))  
+👉 [View Online](https://mustafa-roshdy.github.io/Portfolio/home.html)  
 
 ---
 
